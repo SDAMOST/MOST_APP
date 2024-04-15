@@ -10,10 +10,10 @@ const DrawerNavigationScreen: React.FC = () => {
     return (
   
       //drawer navigation setup
-      <SideMenuDrawer.Navigator initialRouteName="Months">
-        <SideMenuDrawer.Screen name='LoginScren'>
-          {() => <LoginScren/>}
-        </SideMenuDrawer.Screen>
+      <SideMenuDrawer.Navigator initialRouteName="LoginScren">
+        <SideMenuDrawer.Screen name='LoginScren'
+          component={LoginScren} />
+        
       </SideMenuDrawer.Navigator>
       //***********************
   
