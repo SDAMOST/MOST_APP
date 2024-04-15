@@ -1,9 +1,9 @@
 import 'react-native-gesture-handler';
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import SignUpScren from './src/screens/SignUpScren';
-import LoginScren from './src/screens/LoginScren';
-import DrawerNavigationScreen from './src/screens/DrawerNavigationScreen';
+import SignUpScren from './src/screens/SignUpScreen/SignUpScren';
+import LoginScren from './src/screens/LoginScreen/LoginScren';
+import DrawerNavigationScreen from './src/screens/DrawerNavigatorScreen/DrawerNavigationScreen';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { RootStackParamList } from './routes';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
