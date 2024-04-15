@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import LoginScren from './LoginScren';
+import LoginScren from '../LoginScreen/LoginScren';
+import HomeScreen from '../HomeScreen/HomeScreen';
+import OfferIntentionScreen from '../OfferIntentionScreen/OfferIntentionScreen';
 
 const DrawerNavigationScreen: React.FC = () => {
   
@@ -10,9 +12,9 @@ const DrawerNavigationScreen: React.FC = () => {
     return (
   
       //drawer navigation setup
-      <SideMenuDrawer.Navigator initialRouteName="LoginScren">
-        <SideMenuDrawer.Screen name='LoginScren'
-          component={LoginScren} />
+      <SideMenuDrawer.Navigator initialRouteName="Strona główna">
+        <SideMenuDrawer.Screen name='Strona główna' component={HomeScreen} />
+        <SideMenuDrawer.Screen name='Zamów intencję' component={OfferIntentionScreen} />
         
       </SideMenuDrawer.Navigator>
       //***********************
