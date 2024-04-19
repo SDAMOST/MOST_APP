@@ -1,11 +1,14 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
 
 function HomeScreen() {
   return (
-    <Text>
-      To jest ekran główny
-    </Text>
+    <View>
+      <Text>
+        To jest ekran główny
+      </Text>
+      <Text>To jest testowy tekst!</Text>
+    </View>
   )
 }
 
