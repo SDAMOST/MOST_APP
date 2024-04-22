@@ -8,6 +8,7 @@ function HomeScreen() {
         To jest ekran główny
       </Text>
       <Text>To jest testowy tekst!</Text>
+      <Text>To jest kolejny testowy tekst!</Text>
     </View>
   )
 }
